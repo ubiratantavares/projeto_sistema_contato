@@ -1,0 +1,27 @@
+python -m pip install --upgrade pip
+python -m pip install --user twine
+python -m pip install --user setuptools
+
+python setup.py sdist bdist_wheel
+
+https://test.pypi.org/account/register/
+
+python -m twine upload --repository-url https://test.pypi.org/legacy/ dist/*
+
+username:
+password:
+
+pip install -i https://test.pypi.org/simple/ contatos
+
+https://pypi.org/account/register/
+
+python -m twine upload --repository-url https://upload.pypi.org/legacy/ dist/*
+
+username:
+password:
+
+pip install contatos
+
+
+
+

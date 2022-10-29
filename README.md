@@ -1,27 +1,21 @@
 # package_name
 
 Description. 
-The package package_name is used to:
-	- 
-	-
+The package models is used to:
+	- criar uma conexão
+	- criar um contato
+	- utilizar o sistema CRUD para contato
 
 ## Installation
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
 
 ```bash
-pip install package_name
-```
-
-## Usage
-
-```python
-from package_name import file1_name
-file1_name.my_function()
+pip install contatos
 ```
 
 ## Author
-My_name
+Ubiratan da S. Tavares
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
